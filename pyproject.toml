@@ -1,0 +1,14 @@
+[project]
+name = "bjut-annual-eat"
+version = "0.1.0"
+description = "BJUTer 2024 年度消费统计"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ruff",
+    "requests",
+    "pyyaml",
+    "polars",
+    "pyarrow",
+    "matplotlib",
+]

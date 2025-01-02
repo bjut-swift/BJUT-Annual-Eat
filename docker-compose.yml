@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  bjut-annual-eat:
+    build: .
+    volumes:
+      - ./src/bjut_annual_eat/config.yaml.example:/app/src/bjut_annual_eat/config.yaml
+      - ./cache:/app/cache
+      - ./output:/app/output

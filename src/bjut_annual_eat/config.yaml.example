@@ -1,0 +1,8 @@
+user:
+  openid: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # 32位大写字母和数字
+  cookie: "CASTGC=TGT-XXXXX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX; JSESSIONID=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # CASTGC和JSESSIONID两部分组成
+
+settings:
+  test_mode: false # 是否为测试模式，不用动
+  test_month_start: 4 # 测试月份开始，不用动
+  test_month_end: 5 # 测试月份结束，不用动

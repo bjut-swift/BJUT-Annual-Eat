@@ -1,0 +1,12 @@
+.ruff_cache/
+__pycache__/
+.DS_Store
+.venv
+.vscode
+.idea
+*.egg-info/
+cache/
+output/
+
+# sensitive data
+config.yaml
