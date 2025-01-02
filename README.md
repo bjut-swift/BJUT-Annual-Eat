@@ -34,3 +34,7 @@ git clone https://github.com/bjut-swift/BJUT-Annual-Eat.git
 2. `git clone https://github.com/bjut-swift/BJUT-Annual-Eat.git && cd BJUT-Annual-Eat`
 3. 同上述方法配置 `src/bjut_annual_eat/config.yaml.example` 中的 `openid` 和 `cookie`
 4. 运行 `docker compose up --build`，结果会输出在本地的 `output` 目录下
+
+## 其它
+
+如果您认为项目的部分内容侵犯了您的合法权益，请联系项目维护者，我们会尽快删除相关内容。
