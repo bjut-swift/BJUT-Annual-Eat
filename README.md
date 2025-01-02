@@ -26,7 +26,12 @@ git clone https://github.com/bjut-swift/BJUT-Annual-Eat.git
 ![日新工大app](./images/rixingongda.png)
 > 注意这里要选择 “流水类型” 为 “消费” ，否则会获取不到数据
 
-3. 运行 `python -m src.bjut_annual_eat.query` 测试获取数据，如果成功，则可以运行 `python -m src.bjut_annual_eat.stat` 生成统计图表，结果会输出在本地的 `output` 目录下
+3. 下载依赖 
+```sh
+pip install -e .
+```
+
+4. 运行 `python -m src.bjut_annual_eat.query` 测试获取数据，如果成功，则可以运行 `python -m src.bjut_annual_eat.stat` 生成统计图表，结果会输出在本地的 `output` 目录下
 
 ### 2. Docker Compose 运行
 
